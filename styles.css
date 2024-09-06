@@ -19,7 +19,7 @@ body{
 }
 .container{
     width: 25%;
-    max-width: 400px;
+    max-width: 300px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -83,10 +83,14 @@ footer{
     p{
         font-size: 10px;
     }
+    footer{
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1440px) {
     .container{
-        width: 25%;
+        width: 100%;
         gap: .2rem;
     }
     h2{
@@ -99,6 +103,12 @@ footer{
         font-size: 15px;
     }
     img{
-        width: 20rem;
+        width: 25rem;
+    }
+    footer{
+        margin-left: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
