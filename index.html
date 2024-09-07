@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,15 +22,13 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="top">
-        <figure>
-          <div id="qrcode">
-            <img src="./images/image-qr-code.png" alt="qrcode" />
-          </div>
-        </figure>
-      </div>
-      <div class="content">
+    <div class="flex flex-col w-full max-w-sm mx-auto">
+      <img
+        class="w-16 md:w-35 lg:w-48 xl:w-64 2xl:w-80"
+        src="./images/image-qr-code.png"
+        alt="qrcode"
+      />
+      <div class="content flex-col lg:w-48 xl:w-64 2xl:w-80">
         <h2>Improve your front-end skills by building projects</h2>
         <p>
           Scan the QR code to visit Frontend Mentor and take your coding skills
